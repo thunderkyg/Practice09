@@ -26,6 +26,8 @@ public class FriendApp {
     	
     	input.close();
     	
+    	
+    	//String Split 사용 칸을 나눠서 출력
     }
 
 }
