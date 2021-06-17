@@ -19,7 +19,6 @@ public class Friend {
     	this.hp = hp;
     	this.school = school;
     }
-
     
     //Method - gs
 
