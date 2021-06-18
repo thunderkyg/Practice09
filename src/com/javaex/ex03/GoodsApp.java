@@ -19,8 +19,8 @@ public class GoodsApp {
 			}
 			String[] detail = info.split(",");
 			String name = detail[0];
-			int price = detail[1];
-			int count = detail[2];
+			int price = Integer.parseInt(detail[1]);
+			int count = Integer.parseInt(detail[2]);
 			
 			gList.add(new Goods(name, price, count));
 		}
